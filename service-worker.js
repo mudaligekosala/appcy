@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/mudaligekosala/appcy/precache-manifest.9461f1ec70750cdefe82cb5fee1d8654.js"
+  "/appcy/precache-manifest.28a9d74423e9cac2bdb91940b888c3a9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mudaligekosala/appcy/index.html", {
+workbox.routing.registerNavigationRoute("/appcy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
